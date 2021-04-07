@@ -65,5 +65,14 @@ namespace WindowsFormsApp1
             label4.Text = "Деление";
 
         }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(textBox1.Text);
+            double b = Convert.ToDouble(textBox2.Text);
+            double c;
+            c = Math.Sqrt(a);
+            textBox3.Text = Convert.ToString(c);
+            label4.Text = "Корень";
+        }
     }
 }
